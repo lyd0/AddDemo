@@ -1,0 +1,5 @@
+service : {
+  add: (nat) -> ();
+  get_value: () -> (nat) query;
+  set: (nat) -> ();
+}

@@ -3,19 +3,6 @@
     "AddDemo": {
       "main": "src/AddDemo/main.mo",
       "type": "motoko"
-    },
-    "AddDemo_assets": {
-      "dependencies": [
-        "AddDemo"
-      ],
-      "frontend": {
-        "entrypoint": "src/AddDemo_assets/src/index.html"
-      },
-      "source": [
-        "src/AddDemo_assets/assets",
-        "dist/AddDemo_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
